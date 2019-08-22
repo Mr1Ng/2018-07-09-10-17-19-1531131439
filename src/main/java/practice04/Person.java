@@ -3,10 +3,10 @@ package practice04;
 public class Person {
 	private String name;
 	private int age;
-	public String getPersonName() {
+	public String getName() {
 		return name;		
 	}
-	public int getPersonAge() {
+	public int getAge() {
 		return age;
 	}
 	public void setName(String name) {

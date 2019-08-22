@@ -6,7 +6,7 @@ public class Worker extends Person{
 	}
 	@Override
 	public String introduce() {
-		return String.format("My name is %s. Iam %d years old.I am a Worker. I have a job", this.getPersonName(), this.getPersonAge());
+		return String.format("My name is %s. Iam %d years old.I am a Worker. I have a job", this.getName(), this.getAge());
 	}
 	
 }
